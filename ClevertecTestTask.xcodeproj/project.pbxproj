@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AD7CF8292C0AA40053372E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7CF7292C0AA40053372E /* AppDelegate.swift */; };
+		18AD7CFC292C0AA40053372E /* CarFleetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7CFB292C0AA40053372E /* CarFleetViewController.swift */; };
+		18AD7D01292C0AA60053372E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AD7D00292C0AA60053372E /* Assets.xcassets */; };
+		18AD7D04292C0AA60053372E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AD7D02292C0AA60053372E /* LaunchScreen.storyboard */; };
+		18AD7D11292C0FF00053372E /* OrdersProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D10292C0FF00053372E /* OrdersProvider.swift */; };
+		18AD7D13292C10130053372E /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D12292C10130053372E /* OrderType.swift */; };
+		18AD7D15292C101E0053372E /* CargoOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D14292C101E0053372E /* CargoOrder.swift */; };
+		18AD7D17292C10280053372E /* PassengerOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D16292C10280053372E /* PassengerOrder.swift */; };
+		18AD7D19292C10300053372E /* CargoPassengerOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D18292C10300053372E /* CargoPassengerOrder.swift */; };
+		18AD7D1B292C103A0053372E /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D1A292C103A0053372E /* Route.swift */; };
+		18AD7D1D292C10470053372E /* Cargo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D1C292C10470053372E /* Cargo.swift */; };
+		18AD7D1F292C10E60053372E /* CarFleet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D1E292C10E60053372E /* CarFleet.swift */; };
+		18AD7D21292C10F10053372E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D20292C10F10053372E /* Car.swift */; };
+		18AD7D23292C10FD0053372E /* PassengerCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D22292C10FD0053372E /* PassengerCar.swift */; };
+		18AD7D25292C11070053372E /* CargoCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D24292C11070053372E /* CargoCar.swift */; };
+		18AD7D27292C11110053372E /* CargoPassengerCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D26292C11110053372E /* CargoPassengerCar.swift */; };
+		18AD7D29292C119A0053372E /* CargoCapacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD7D28292C119A0053372E /* CargoCapacity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18AD7CF4292C0AA40053372E /* ClevertecTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClevertecTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AD7CF7292C0AA40053372E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18AD7CFB292C0AA40053372E /* CarFleetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFleetViewController.swift; sourceTree = "<group>"; };
+		18AD7D00292C0AA60053372E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18AD7D03292C0AA60053372E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18AD7D05292C0AA60053372E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AD7D10292C0FF00053372E /* OrdersProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersProvider.swift; sourceTree = "<group>"; };
+		18AD7D12292C10130053372E /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		18AD7D14292C101E0053372E /* CargoOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoOrder.swift; sourceTree = "<group>"; };
+		18AD7D16292C10280053372E /* PassengerOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerOrder.swift; sourceTree = "<group>"; };
+		18AD7D18292C10300053372E /* CargoPassengerOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoPassengerOrder.swift; sourceTree = "<group>"; };
+		18AD7D1A292C103A0053372E /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		18AD7D1C292C10470053372E /* Cargo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cargo.swift; sourceTree = "<group>"; };
+		18AD7D1E292C10E60053372E /* CarFleet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFleet.swift; sourceTree = "<group>"; };
+		18AD7D20292C10F10053372E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		18AD7D22292C10FD0053372E /* PassengerCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerCar.swift; sourceTree = "<group>"; };
+		18AD7D24292C11070053372E /* CargoCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoCar.swift; sourceTree = "<group>"; };
+		18AD7D26292C11110053372E /* CargoPassengerCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoPassengerCar.swift; sourceTree = "<group>"; };
+		18AD7D28292C119A0053372E /* CargoCapacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoCapacity.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AD7CF1292C0AA40053372E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AD7CEB292C0AA40053372E = {
+			isa = PBXGroup;
+			children = (
+				18AD7CF6292C0AA40053372E /* ClevertecTestTask */,
+				18AD7CF5292C0AA40053372E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18AD7CF5292C0AA40053372E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AD7CF4292C0AA40053372E /* ClevertecTestTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AD7CF6292C0AA40053372E /* ClevertecTestTask */ = {
+			isa = PBXGroup;
+			children = (
+				18AD7D0B292C0CAB0053372E /* Application */,
+				18AD7D0E292C0DA50053372E /* Controllers */,
+				18AD7D0C292C0D810053372E /* Managers */,
+				18AD7D0F292C0DF00053372E /* Classes */,
+				18AD7D0D292C0D890053372E /* Models */,
+			);
+			path = ClevertecTestTask;
+			sourceTree = "<group>";
+		};
+		18AD7D0B292C0CAB0053372E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				18AD7CF7292C0AA40053372E /* AppDelegate.swift */,
+				18AD7D00292C0AA60053372E /* Assets.xcassets */,
+				18AD7D02292C0AA60053372E /* LaunchScreen.storyboard */,
+				18AD7D05292C0AA60053372E /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		18AD7D0C292C0D810053372E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				18AD7D10292C0FF00053372E /* OrdersProvider.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		18AD7D0D292C0D890053372E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18AD7D12292C10130053372E /* OrderType.swift */,
+				18AD7D18292C10300053372E /* CargoPassengerOrder.swift */,
+				18AD7D16292C10280053372E /* PassengerOrder.swift */,
+				18AD7D14292C101E0053372E /* CargoOrder.swift */,
+				18AD7D1A292C103A0053372E /* Route.swift */,
+				18AD7D1C292C10470053372E /* Cargo.swift */,
+				18AD7D28292C119A0053372E /* CargoCapacity.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18AD7D0E292C0DA50053372E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18AD7CFB292C0AA40053372E /* CarFleetViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18AD7D0F292C0DF00053372E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18AD7D1E292C10E60053372E /* CarFleet.swift */,
+				18AD7D20292C10F10053372E /* Car.swift */,
+				18AD7D22292C10FD0053372E /* PassengerCar.swift */,
+				18AD7D24292C11070053372E /* CargoCar.swift */,
+				18AD7D26292C11110053372E /* CargoPassengerCar.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AD7CF3292C0AA40053372E /* ClevertecTestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AD7D08292C0AA60053372E /* Build configuration list for PBXNativeTarget "ClevertecTestTask" */;
+			buildPhases = (
+				18AD7CF0292C0AA40053372E /* Sources */,
+				18AD7CF1292C0AA40053372E /* Frameworks */,
+				18AD7CF2292C0AA40053372E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClevertecTestTask;
+			productName = ClevertecTestTask;
+			productReference = 18AD7CF4292C0AA40053372E /* ClevertecTestTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AD7CEC292C0AA40053372E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					18AD7CF3292C0AA40053372E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 18AD7CEF292C0AA40053372E /* Build configuration list for PBXProject "ClevertecTestTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AD7CEB292C0AA40053372E;
+			productRefGroup = 18AD7CF5292C0AA40053372E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AD7CF3292C0AA40053372E /* ClevertecTestTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AD7CF2292C0AA40053372E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD7D04292C0AA60053372E /* LaunchScreen.storyboard in Resources */,
+				18AD7D01292C0AA60053372E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AD7CF0292C0AA40053372E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AD7D13292C10130053372E /* OrderType.swift in Sources */,
+				18AD7D25292C11070053372E /* CargoCar.swift in Sources */,
+				18AD7CFC292C0AA40053372E /* CarFleetViewController.swift in Sources */,
+				18AD7D11292C0FF00053372E /* OrdersProvider.swift in Sources */,
+				18AD7D27292C11110053372E /* CargoPassengerCar.swift in Sources */,
+				18AD7D23292C10FD0053372E /* PassengerCar.swift in Sources */,
+				18AD7D17292C10280053372E /* PassengerOrder.swift in Sources */,
+				18AD7D19292C10300053372E /* CargoPassengerOrder.swift in Sources */,
+				18AD7D1B292C103A0053372E /* Route.swift in Sources */,
+				18AD7D15292C101E0053372E /* CargoOrder.swift in Sources */,
+				18AD7D21292C10F10053372E /* Car.swift in Sources */,
+				18AD7D1F292C10E60053372E /* CarFleet.swift in Sources */,
+				18AD7CF8292C0AA40053372E /* AppDelegate.swift in Sources */,
+				18AD7D29292C119A0053372E /* CargoCapacity.swift in Sources */,
+				18AD7D1D292C10470053372E /* Cargo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18AD7D02292C0AA60053372E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AD7D03292C0AA60053372E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AD7D06292C0AA60053372E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18AD7D07292C0AA60053372E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AD7D09292C0AA60053372E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U223Z5G92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClevertecTestTask/Application/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nndigital.ClevertecTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18AD7D0A292C0AA60053372E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6U223Z5G92;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClevertecTestTask/Application/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nndigital.ClevertecTestTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AD7CEF292C0AA40053372E /* Build configuration list for PBXProject "ClevertecTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AD7D06292C0AA60053372E /* Debug */,
+				18AD7D07292C0AA60053372E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AD7D08292C0AA60053372E /* Build configuration list for PBXNativeTarget "ClevertecTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AD7D09292C0AA60053372E /* Debug */,
+				18AD7D0A292C0AA60053372E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AD7CEC292C0AA40053372E /* Project object */;
+}
